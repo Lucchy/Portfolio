@@ -1,0 +1,51 @@
+.projects {
+    height: 270vh;
+    padding: 70px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to bottom, #7f78ff, #22204a);
+}
+.p-ctn {
+    padding: 40px 400px 0 400px;
+    margin-bottom: 40px;
+}
+
+.projects-ctn {
+    height: 500px;
+}
+
+.filters {
+    margin-top: 100px;
+    height: 40px;
+    display: flex;
+    gap: 6%;
+    align-items: center;
+    justify-content: center;
+}
+
+.filters p {
+    cursor: pointer;
+    font-family: 'Unica One';
+    transition: padding 0.3s ease-in-out;
+    border-radius: 15px;
+}
+.filters p:hover {
+    color: #8ff0fb;
+}
+
+.active-filter {
+    color: #8ff0fb;
+    padding: 6px 25px;
+    background-color: rgba(0, 0, 0, 0.235);
+}
+
+.cards {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 13px;
+    padding: 30px 140px 0 140px;
+}
+

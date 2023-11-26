@@ -1,0 +1,150 @@
+.home {
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #c5cfff);
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    height: 480px; width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 300px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    font-family: 'Unica One';
+}
+
+.home .title p {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    width: 80%;
+}
+
+.home p span {
+    color: #7f78ff;
+}
+
+.link-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.link-icons .linkedin-icon {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    margin-left: -8px;
+}
+.link-icons .github-icon {
+    height: 22px; 
+    width: 22px;
+    display: flex;
+    margin-left: 4px;
+    margin-right: 12px;
+}
+
+.link-icons a {
+    color: rgb(205, 97, 97);
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.photo {
+    display: flex;
+    perspective: 1500px;
+}
+
+.photo img {
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: rotateX(10deg) rotateY(-18deg) rotateZ(3deg);
+    box-shadow: #7c6384 40px 34px 35px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    transition: .3s;
+}
+.photo img:hover {
+    transform: rotate(0);
+    box-shadow: 0 0px 20px 20px #c8f7ff;
+    border: none;
+}
+
+.technos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding-left: 300px;
+    padding-right: 400px;
+}
+
+.technos p {
+    height: 100%;
+    font-family: 'Unica One';
+    font-size: 18px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.technos div {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex: 6;
+}
+.technos div .html {
+    height: 30px; width: 30px;
+}
+.technos div .css {
+    height: 25px; width: 18px;
+}
+.technos div .js {
+    height: 25px; width: 45px;
+}
+.technos div .react {
+    height: 25px; width: 25px;
+}
+.technos div .python {
+    height: 23px; width: 23px;
+}
+.technos div .arduino {
+    height: 20px; width: 30px;
+}
+
+.icon {
+    display: flex;
+    margin-top: 100px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    position: relative;
+    animation: bounce 1s infinite alternate;
+}
+
+.icon span {
+    font-size: 40px;
+    border-radius: 50%;
+    height: 40px; width: 25px;
+    color: #7f78ff;
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

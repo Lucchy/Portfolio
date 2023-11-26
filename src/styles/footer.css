@@ -1,0 +1,41 @@
+footer {
+    height: 25vh;     
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.foot-ctn {
+    padding: 40px 120px 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.txt {
+    padding: 0 500px 0 0;
+}
+.txt p {
+    margin-top: 15px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.icons {
+    margin-top: 15px;
+    display: flex;
+}
+
+.icons img {
+    height: 30px; width: 30px;
+}

@@ -1,0 +1,62 @@
+.about {
+    height: 100vh;
+    background: linear-gradient(to bottom, #c5cfff, #7f78ff);
+    /* background-color: #7f78ff; */
+    padding-top: 40px;
+}
+
+.container {
+    color: white;
+    margin-top: 70px;
+    padding: 0px 200px 0 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 9%;
+}
+
+.text {
+    display: flex; flex: 1;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 18px;
+    display: flex; flex: 1;
+    align-items: start;
+}
+
+.text button {
+    height: 60px; 
+    padding: 15px 30px;
+    margin: 0 auto;
+    border-radius: 45px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background: linear-gradient(120deg, #29e1fd, #546eef, #bf90c0);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .3s ease-out;
+    color: #ffffff;
+    font-family: 'Unica One';
+    font-size: 20px;
+}
+
+button:hover {
+    background-position: 0 0;
+}
+
+.container .photo-about {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+.container .photo-about img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
