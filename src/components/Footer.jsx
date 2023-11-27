@@ -13,10 +13,10 @@ const Footer = ({title, children}) => {
                 <div className="social">
                     <h3>Social</h3>
                     <div className="icons">
-                        <a href="#">
+                    <a href='https://www.linkedin.com/in/lucas-couchy-devweb/' target='_blank'>
                             <img src="src/assets/images/linkedin.png" alt="LINKEDIN" />
                         </a>
-                        <a href="#">
+                        <a href='https://github.com/Lucchy' target='_blank'>
                             <img src="src/assets/images/github2.png" alt="github" />
                         </a>
                     </div>

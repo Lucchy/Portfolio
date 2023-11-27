@@ -30,8 +30,8 @@
     {
         "id": 3,
         "tech":"JS",
-        "url":"",
-        "img": "src/assets/images/hubble.jpg",
+        "url":"https://github.com/Lucchy/Portfolio-architecte-sophie-bluel.git",
+        "img": "src/assets/images/sophiebluel.png",
         "title": "Site Sophie Bluel",
         "description": "Intégration d'un portfolio en ligne.",
         "tags":[
@@ -44,8 +44,8 @@
     {
         "id": 4,
         "tech":"React",
-        "url":"",
-        "img": "src/assets/images/pro.jpg",
+        "url":"https://lucchy.github.io/P8_Kasa/",
+        "img": "src/assets/images/kasa.png",
         "title": "Kasa",
         "description": "Développement d'une plateforme web de réservation d'hôtel.",
         "tags":[
@@ -57,7 +57,7 @@
     {
         "id": 5,
         "tech":"React",
-        "url":"",
+        "url":"https://github.com/Lucchy/P11_ArgentBank.git",
         "img": "src/assets/images/bank.avif",
         "title": "ArgentBank",
         "description": "Réalisation d'une plateforme web de gestion de transactions",

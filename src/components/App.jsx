@@ -18,8 +18,11 @@ const App = () => {
           Hey, I'm <span>Lucas Couchy</span> a passionate front-end react developper based in Paris. 
         </Home>
         <About>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui cumque sapiente illo nemo harum, beatae modi quis doloribus? Aliquid dignissimos odit voluptatem quas nobis incidunt molestiae voluptates blanditiis, hic consectetur quasi consequuntur alias ut voluptatum est tempora unde autem ducimus enim omnis excepturi laudantium error esse? Mollitia, unde pariatur. In totam laudantium natus veniam at. Adipisci dolorum exercitationem id vel modi, laboriosam et reprehenderit magni natus expedita incidunt obcaecati temporibus quasi consequatur voluptatum cupiditate est tempore ratione veritatis autem veniam? Odit quibusdam ratione provident amet. Eos tempore harum voluptatem soluta ad omnis optio dolorem, porro fuga, repellat blanditiis suscipit.        
-        </About>
+        Passionné par la technologie, mon orientation initiale en mécatronique m'a conduit vers le monde captivant du développement web. En réalisant une interface homme-machine au cours de ma licence pro, j'ai été fasciné par le processus de codage d'applications.<br/>
+Fort de cette expérience, j'ai intensifié mes compétences par le biais d'une formation en ligne en intégration web. En tant qu'autodidacte, j'ai rapidement maîtrisé les bases, créant des plateformes web dynamiques et adaptées aux besoins des clients.<br/>
+Convaincu de l'importance de l'apprentissage continu, mon prochain pas sera une formation en alternance. Allier théorie et pratique dans un contexte professionnel est la clé pour approfondir mes compétences en développement web.<br/>
+Chaque ligne de code que je rédige aspire à créer des expériences numériques esthétiques et fonctionnelles. Mon objectif est d'harmoniser ma passion pour la technologie avec une approche pragmatique et créative pour concevoir des solutions web innovantes. En tant que professionnel en devenir, je suis prêt à relever de nouveaux défis et à contribuer de manière significative au monde du développement web.<br/>
+</About>
         <Projects/>
         {/* <Form/> */}
       </div>

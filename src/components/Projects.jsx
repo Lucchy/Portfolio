@@ -20,8 +20,7 @@ const Projects = () => {
             <h2>My Projects</h2>
             <div className="p-ctn">
                 <p className='p-intro'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum velit eaque quis sed! Cupiditate quisquam unde quasi. Provident, impedit molestiae!
-                </p>
+                Retrouvez dans cette section des projets que j’ai réalisé pendant ma formation en ligne d’intégrateur web. J’ai mis en place un filtre vous permettant de naviguer plus facilement entre les projets de différentes technologies.                  </p>
             </div>
             <div className='projects-ctn'>
                 <div className="filters">
