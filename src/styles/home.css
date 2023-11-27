@@ -148,3 +148,69 @@
         transform: translateY(-10px);
     }
 }
+
+
+@media screen and (max-width: 1280px) {
+    .intro {
+        padding: 0 130px;
+    }
+
+    .technos {
+        padding: 0 130px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .home {
+        height: 130vh;
+        padding: 0 10px;
+    }
+    .intro {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        height: 700px;
+    }
+    .intro .photo {
+        margin-bottom: 30px;
+    }
+
+    .title {
+        flex-direction: column-reverse;
+    }
+    .title h1 {
+        display: none;
+    }
+    .title .link-icons {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .title p {
+        font-family: 'Unica One'!important;
+        font-size: 45px;
+    }
+
+    .technos {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .technos p {
+        justify-content: center;
+        display: none;
+    }
+    .technos .stacks {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .home {
+        padding: 0 10px;
+        padding-top: 50px;
+    }
+    .icon {
+        display: none;
+    }
+}
+

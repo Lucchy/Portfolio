@@ -49,3 +49,24 @@
     padding: 30px 140px 0 140px;
 }
 
+@media screen and (max-width: 1280px) {
+
+    .p-ctn {
+        margin-top: 30px;
+        padding:0 130px;
+    }
+
+}
+
+@media screen and (max-width: 902px) {
+    
+    .projects {
+        height: 350vh;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    .filters {
+        margin-top: 30px;
+    }
+}
