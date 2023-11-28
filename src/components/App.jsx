@@ -18,12 +18,14 @@ const App = () => {
           Hey, I'm <span>Lucas Couchy</span> a passionate front-end react developper based in Paris. 
         </Home>
         <About>
-        Passionné par la technologie, mon orientation initiale en mécatronique m'a conduit vers le monde captivant du développement web. En réalisant une interface homme-machine au cours de ma licence pro, j'ai été fasciné par le processus de codage d'applications.<br/>
-Fort de cette expérience, j'ai intensifié mes compétences par le biais d'une formation en ligne en intégration web. En tant qu'autodidacte, j'ai rapidement maîtrisé les bases, créant des plateformes web dynamiques et adaptées aux besoins des clients.<br/>
-Convaincu de l'importance de l'apprentissage continu, mon prochain pas sera une formation en alternance. Allier théorie et pratique dans un contexte professionnel est la clé pour approfondir mes compétences en développement web.<br/>
-Chaque ligne de code que je rédige aspire à créer des expériences numériques esthétiques et fonctionnelles. Mon objectif est d'harmoniser ma passion pour la technologie avec une approche pragmatique et créative pour concevoir des solutions web innovantes. En tant que professionnel en devenir, je suis prêt à relever de nouveaux défis et à contribuer de manière significative au monde du développement web.<br/>
-</About>
-        <Projects/>
+          Passionate about technology, my initial focus on mechatronics led me into the captivating world of web development. While working on a human-machine interface during my professional degree, I was fascinated by the process of coding applications.<br/>
+          Building on this experience, I enhanced my skills through online training in web integration. As a self-learner, I quickly mastered the fundamentals, creating dynamic web platforms tailored to clients' needs.<br/>
+          Convinced of the importance of continuous learning, my next step will be an apprenticeship. Combining theory and practice in a professional setting is the key to deepening my skills in web development.<br/>
+          Every line of code I write aspires to create aesthetic and functional digital experiences. My goal is to harmonize my passion for technology with a pragmatic and creative approach to design innovative web solutions. As an aspiring professional, I am ready to take on new challenges and contribute meaningfully to the world of web development.<br/>
+        </About>
+        <Projects>
+        In this section, you'll find projects I completed during my online training as a web integrator. These projects showcase my capabilities and highlight my skills.
+        </Projects>
         {/* <Form/> */}
       </div>
 

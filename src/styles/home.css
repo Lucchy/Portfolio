@@ -163,12 +163,11 @@
 
 @media screen and (max-width: 992px) {
     .home {
-        height: 130vh;
+        height: 125vh;
         padding: 0 10px;
     }
     .intro {
         flex-direction: column-reverse;
-        margin-top: 40px;
         height: 700px;
     }
     .intro .photo {
@@ -207,10 +206,22 @@
 @media screen and (max-width: 760px) {
     .home {
         padding: 0 10px;
-        padding-top: 50px;
+        height: 110vh;
+    }
+    .title p {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .photo {
+        margin-top: 40px;
     }
     .icon {
         display: none;
     }
+    .technos {
+        margin-top: 0px;
+    }
+    .technos .stacks {
+        margin-top: 0px;
+    }
 }
-

@@ -39,3 +39,31 @@ h3 {
 .icons img {
     height: 30px; width: 30px;
 }
+
+@media screen and (max-width: 992px) {
+    .txt {
+        padding-right: 0;
+        flex: 1;
+    }
+    .social {
+        flex: 1;
+    }
+    .foot-ctn {
+        gap: 15%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .foot-ctn {
+        flex-direction: column;
+    }
+    footer {
+        height: 40vh;
+    }
+    .txt {
+        padding-bottom: 30px;
+    }
+    .txt h3 {
+        text-align: center;
+    }
+}

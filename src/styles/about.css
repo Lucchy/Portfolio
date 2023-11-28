@@ -65,16 +65,26 @@ button:hover {
 @media screen and (max-width: 1280px) {
     
     .about {
-        height: 180vh;
+        height: 80vh;
     }
     .container {
         padding: 0 130px;
         flex-direction: column-reverse;
     }
     .photo-about {
+        display: none!important;
         margin-bottom: 40px;
     }
     .text p {
         margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about {
+        height: 180vh;
+    }
+    .photo-about {
+        display: block!important;
     }
 }

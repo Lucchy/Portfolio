@@ -3,7 +3,7 @@ import Card from './Card';
 import projectsData from '../projects.json';
 import React, { useState } from 'react';
 
-const Projects = () => {
+const Projects = ({children}) => {
     const [selectedFilter, setSelectedFilter] = useState('All');
     
     const handleFilterClick = (filter) => {
@@ -19,8 +19,7 @@ const Projects = () => {
         <div className='projects' id='projects'>
             <h2>My Projects</h2>
             <div className="p-ctn">
-                <p className='p-intro'>
-                Retrouvez dans cette section des projets que j’ai réalisé pendant ma formation en ligne d’intégrateur web. J’ai mis en place un filtre vous permettant de naviguer plus facilement entre les projets de différentes technologies.                  </p>
+                <p className='p-intro'>{children}</p>
             </div>
             <div className='projects-ctn'>
                 <div className="filters">
