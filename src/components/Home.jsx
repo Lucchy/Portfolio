@@ -11,8 +11,8 @@ const Home = ({title, children}) => {
                     <h1>{title}</h1>
                     <p>{children}</p>
                     <div className='link-icons'>
-                        <a href='https://www.linkedin.com/in/lucas-couchy-devweb/' target='_blank'><img className = 'linkedin-icon' src="/public/images/linkedin.png" alt="linkedin icon"/></a>
-                        <a href='https://github.com/Lucchy' target='_blank'><img className = 'github-icon' src="/public/images/github.png" alt="Github icon"/></a>
+                        <a href='https://www.linkedin.com/in/lucas-couchy-devweb/' target='_blank'><img className = 'linkedin-icon' src="/images/linkedin.png" alt="linkedin icon"/></a>
+                        <a href='https://github.com/Lucchy' target='_blank'><img className = 'github-icon' src="/images/github.png" alt="Github icon"/></a>
                         <a href='mailto:lukcouchy@gmail.com'> @</a>
                     </div>
                 </div>
@@ -24,12 +24,12 @@ const Home = ({title, children}) => {
             <div className='technos'>
                 <p>My tech stack |</p>
                 <div className='stacks'>
-                    <img className="html" src="/public/images/html.png" alt="html" />
-                    <img className="css" src="/public/images/css.png" alt="css" />
-                    <img className="js" src="/public/images/js.png" alt="js" />
-                    <img className="react" src="/public/images/react.webp" alt="react" />
-                    <img className="python" src="/public/images/python.png" alt="python" />
-                    <img className="arduino" src="/public/images/arduino.png" alt="arduino" />
+                    <img className="html" src="/images/html.png" alt="html" />
+                    <img className="css" src="/images/css.png" alt="css" />
+                    <img className="js" src="/images/js.png" alt="js" />
+                    <img className="react" src="/images/react.webp" alt="react" />
+                    <img className="python" src="/images/python.png" alt="python" />
+                    <img className="arduino" src="/images/arduino.png" alt="arduino" />
                 </div>
             </div>
             <div className='icon'>

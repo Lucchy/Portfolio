@@ -4,7 +4,7 @@
         "id": 1,
         "tech":"HTML & CSS",
         "url":"https://lucchy.github.io/P4-OHMYFOOD/",
-        "img": "/public/images/omf.png",
+        "img": "/images/omf.PNG",
         "title": "Ohmyfood",
         "description": "Intégration d'une plateforme web permettant de faire des réservations dans plusieurs restaurants.",
         "tags":[
@@ -17,7 +17,7 @@
         "id": 2,
         "tech":"SEO",
         "url": "https://lucchy.github.io/ninacarducci.github.io/",
-        "img": "/public/images/ninacarducci.PNG",
+        "img": "/images/ninacarducci.PNG",
         "title": "Site vitrine Nina Carducci",
         "description": "Optimisation SEO d'un site web vitrine pour une photographe",
         "tags": [
@@ -31,7 +31,7 @@
         "id": 3,
         "tech":"JS",
         "url":"https://github.com/Lucchy/Portfolio-architecte-sophie-bluel.git",
-        "img": "/public/images/sophiebluel.png",
+        "img": "/images/sophiebluel.png",
         "title": "Site Sophie Bluel",
         "description": "Intégration d'un portfolio en ligne.",
         "tags":[
@@ -45,7 +45,7 @@
         "id": 4,
         "tech":"React",
         "url":"https://lucchy.github.io/P8_Kasa/",
-        "img": "/public/images/kasa.png",
+        "img": "/images/kasa.png",
         "title": "Kasa",
         "description": "Développement d'une plateforme web de réservation d'hôtel.",
         "tags":[
@@ -58,7 +58,7 @@
         "id": 5,
         "tech":"React",
         "url":"https://github.com/Lucchy/P11_ArgentBank.git",
-        "img": "/public/images/bank.avif",
+        "img": "/images/bank.avif",
         "title": "ArgentBank",
         "description": "Réalisation d'une plateforme web de gestion de transactions",
         "tags":[

@@ -14,10 +14,10 @@ const Footer = ({title, children}) => {
                     <h3>Social</h3>
                     <div className="icons">
                     <a href='https://www.linkedin.com/in/lucas-couchy-devweb/' target='_blank'>
-                            <img src="/public/images/linkedin.png" alt="LINKEDIN" />
+                            <img src="/images/linkedin.png" alt="LINKEDIN" />
                         </a>
                         <a href='https://github.com/Lucchy' target='_blank'>
-                            <img src="/public/images/github2.png" alt="github" />
+                            <img src="/images/github2.png" alt="github" />
                         </a>
                     </div>
                 </div>
