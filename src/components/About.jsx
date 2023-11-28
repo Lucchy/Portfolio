@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 const About = ({children}) => {
 
     const handleDownlaod = ()=> {
-        const pdfUrl = '/public/images/Cv.pdf';
+        const pdfUrl = '/images/Cv.pdf';
         saveAs(pdfUrl, 'CV_Dev-web_Lucas_Couchy');
     }
     return (

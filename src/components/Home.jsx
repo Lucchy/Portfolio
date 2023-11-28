@@ -18,7 +18,7 @@ const Home = ({title, children}) => {
                 </div>
 
                 <div className='photo'>
-                    <img src='/public/images/photoid.png'/>
+                    <img src='/images/photoid.png'/>
                 </div>
             </div>
             <div className='technos'>
