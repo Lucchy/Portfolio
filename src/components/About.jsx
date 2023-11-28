@@ -19,7 +19,7 @@ const About = ({children}) => {
                 </div>
                 
                 <div className='photo-about'>
-                    <img src="/public/images/photoid.png" alt="photo2" />
+                    <img src="/images/photoid.png" alt="photo2" />
                 </div>
             </div>
         
