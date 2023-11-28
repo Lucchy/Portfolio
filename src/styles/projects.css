@@ -60,7 +60,7 @@
 @media screen and (max-width: 902px) {
     
     .projects {
-        height: 300vh;
+        height: 350vh;
     }
     .cards {
         grid-template-columns: 1fr;
@@ -71,6 +71,9 @@
 }
 
 @media  screen and (max-width: 750px) {
+    .projects {
+        height: 300vh;
+    }
     .p-ctn {
         padding: 0 20px;
     }
