@@ -93,7 +93,7 @@ button:hover {
     .container {
         padding: 0 20px;
     }
-    .about {
-        height: 140vh;
-    }
+}
+
+@media screen and (max-width: 400px) {
 }

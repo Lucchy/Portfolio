@@ -71,13 +71,16 @@
 }
 
 @media  screen and (max-width: 750px) {
-    .projects {
-        height: 300vh;
-    }
     .p-ctn {
         padding: 0 20px;
     }
     .cards {
         padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 400) {
+    .projects {
+        height: 350vh;
     }
 }
