@@ -82,9 +82,15 @@ button:hover {
 
 @media screen and (max-width: 992px) {
     .about {
-        height: 180vh;
+        height: 140vh;
     }
     .photo-about {
         display: block!important;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        padding: 0 20px;
     }
 }

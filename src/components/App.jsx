@@ -10,9 +10,9 @@ const App = () => {
 
   return (
     <div className='app'>
+      <div className='wrapper'>
       <Header icon = 'rocket_launch' title="Lucas.couchy"/>
 
-      <div className='wrapper'>
 
         <Home title="Front-end React Developper">
           Hey, I'm <span>Lucas Couchy</span> a passionate front-end react developper based in Paris. 
@@ -27,11 +27,10 @@ const App = () => {
         In this section, you'll find projects I completed during my online training as a web integrator. These projects showcase my capabilities and highlight my skills.
         </Projects>
         {/* <Form/> */}
-      </div>
-
-      <Footer title='Lucas Couchy'>
+        <Footer title='Lucas Couchy'>
         A passionate front end developper
       </Footer>
+      </div>
     </div>
   );
 };

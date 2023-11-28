@@ -55,18 +55,26 @@
         margin-top: 30px;
         padding:0 130px;
     }
-
 }
 
 @media screen and (max-width: 902px) {
     
     .projects {
-        height: 350vh;
+        height: 300vh;
     }
     .cards {
         grid-template-columns: 1fr;
     }
     .filters {
         margin-top: 30px;
+    }
+}
+
+@media  screen and (max-width: 750px) {
+    .p-ctn {
+        padding: 0 20px;
+    }
+    .cards {
+        padding: 0 10px;
     }
 }

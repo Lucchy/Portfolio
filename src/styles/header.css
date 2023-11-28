@@ -55,3 +55,9 @@ nav a:hover {
     }
     
 }
+
+@media screen and (max-width: 620px) {
+    /* nav {
+        display: none;
+    } */
+}
