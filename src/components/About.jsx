@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 const About = ({children}) => {
 
     const handleDownlaod = ()=> {
-        const pdfUrl = 'src/assets/images/Cv.pdf';
+        const pdfUrl = '/public/images/Cv.pdf';
         saveAs(pdfUrl, 'CV_Dev-web_Lucas_Couchy');
     }
     return (
@@ -19,7 +19,7 @@ const About = ({children}) => {
                 </div>
                 
                 <div className='photo-about'>
-                    <img src="src/assets/images/photoid.png" alt="photo2" />
+                    <img src="/public/images/photoid.png" alt="photo2" />
                 </div>
             </div>
         
